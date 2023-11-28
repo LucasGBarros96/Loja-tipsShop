@@ -1,0 +1,109 @@
+h1 {
+    font-family: sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: lightgray;
+    height: 100vh;
+    font-family: sans-serif;
+    
+
+}
+
+header{
+    
+    background-color: #c1c1c1; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: .8rem;
+    max-height: 50px;
+}
+
+.box-img-header {
+    height: 100%;
+}
+
+img-logo{
+    height: 100%;  
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center ;
+}
+
+.nav-links{
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    background-image: url(./img/hero-alisson.png);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section {
+    padding: 2rem;
+}
+
+.conteudo-principal {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    min-height: 650px;
+    
+}
+
+
+h1 {
+    font-size: 40px;
+    color: black;
+   
+}
+
+strong{
+    color: #00BFFF
+}
+
+h2 {
+    color: black;
+    font-size: 16px;
+}
+
+p {
+    color: #708090 ;
+    font-size: 14px;
+}
+
+.conteudo-principal-subtitulo {
+    line-height: 32px;
+}
+
+.conteudo-principal-texto {
+    line-height: 40px;
+}
+
+.btn {
+    align-items: center;
+    background-image: url(./img/button.png);
+    font-size: 1rem;
+    text-align: center;
+    
+    border-radius: 6px;
+    
+}
+
+
